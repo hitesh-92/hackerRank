@@ -14,7 +14,12 @@ def miniMaxSum(arr):
 
 	for i in range(len(arr)):
 
-		newArray = [x for x in arr if x != arr[i] ]
+
+		# newArray = [x for x in arr if x != arr[i] ]
+		#fixed
+		newArray = [x for x in arr ]
+		del newArray[i]
+
 		print('new',newArray)
 		result = 0
 		for n in newArray: result += n
