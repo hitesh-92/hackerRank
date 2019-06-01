@@ -1,5 +1,5 @@
-import os
-os.system('cls' if os.name == 'nt' else 'clear')
+# import os
+# os.system('cls' if os.name == 'nt' else 'clear')
 
 def jumpingOnClouds(c):
     highest = len(c) - 1
